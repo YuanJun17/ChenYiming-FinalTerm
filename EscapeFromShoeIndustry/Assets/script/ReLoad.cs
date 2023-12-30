@@ -29,5 +29,6 @@ public class ReLoad : MonoBehaviour
         SceneManager.LoadScene(currentSceneIndex);
         Time.timeScale = 1f;
         Physics2D.gravity = new Vector2(0f, -9.8f);
+        CheckDeath.Instance.IsDeath = false;
     }
 }

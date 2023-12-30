@@ -6,7 +6,7 @@ public class nomalwalk : MonoBehaviour
 {
 
     float walkspeed = 7;
-    float jumpspeed = 10;
+    float jumpspeed = 11;
 
     public Rigidbody2D myrigidbody;
     public Animator myanim;
@@ -17,6 +17,7 @@ public class nomalwalk : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Physics2D.gravity = new Vector2(0f, -9.8f);
         myrigidbody = GetComponent<Rigidbody2D>();
         myanim = GetComponent<Animator>();
         

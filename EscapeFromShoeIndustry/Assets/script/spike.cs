@@ -35,6 +35,7 @@ public class spike : MonoBehaviour
         {
             Debug.Log("You Die");
             Time.timeScale = 0f;
+            CheckDeath.Instance.IsDeath = true;
         }
     }
 }
