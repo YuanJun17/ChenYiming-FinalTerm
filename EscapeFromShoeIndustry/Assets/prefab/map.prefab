@@ -96,7 +96,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e5668dfb44d72f4b8255e1e13302477, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isiron: {fileID: 0}
+  isiron: {fileID: 4146088184704619620, guid: 5d9bbc49b352fd7489014972a7619828, type: 3}
 --- !u!1839735485 &3983256135082898096
 Tilemap:
   m_ObjectHideFlags: 0
@@ -374,7 +374,7 @@ CompositeCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}

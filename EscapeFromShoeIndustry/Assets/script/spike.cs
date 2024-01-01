@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class spike : MonoBehaviour
 {
-    private bool IsIron;
+    public bool IsIron;
     public ironwalk isiron;
     // Start is called before the first frame update
     void Start()
