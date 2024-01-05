@@ -6,6 +6,7 @@ public class spike : MonoBehaviour
 {
     public bool IsIron;
     public ironwalk isiron;
+  
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +17,7 @@ public class spike : MonoBehaviour
     void Update()
     {
         CheckIron();
+       
     }
     private void CheckIron()
     {
@@ -26,9 +28,11 @@ public class spike : MonoBehaviour
         else
         {
             IsIron = false;
+           
         }
     }
 
+    
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player") && !IsIron)
@@ -36,6 +40,9 @@ public class spike : MonoBehaviour
             Debug.Log("You Die");
             Time.timeScale = 0f;
             CheckDeath.Instance.IsDeath = true;
+           
         }
+       
     }
+
 }

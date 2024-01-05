@@ -64,7 +64,7 @@ GameObject:
   - component: {fileID: 1418241749999175294}
   m_Layer: 9
   m_Name: spike
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -96,6 +96,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e5668dfb44d72f4b8255e1e13302477, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsIron: 0
   isiron: {fileID: 4146088184704619620, guid: 5d9bbc49b352fd7489014972a7619828, type: 3}
 --- !u!1839735485 &3983256135082898096
 Tilemap:
