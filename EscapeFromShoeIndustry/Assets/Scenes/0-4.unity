@@ -367,7 +367,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 104, y: -194}
+  m_AnchoredPosition: {x: 486, y: -160}
   m_SizeDelta: {x: 1217.6803, y: 302.2743}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &785347257
@@ -392,7 +392,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 95
+    m_FontSize: 34
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
@@ -774,13 +774,17 @@ PrefabInstance:
       propertyPath: m_Text
       value: "\u53EA\u80FD\u4ECE\u9876\u4E0A\u8D70\u4E86"
       objectReference: {fileID: 0}
+    - target: {fileID: 5328983194267013831, guid: cd1efc6802a0fbf4eac42aa335973bd7, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 51
+      objectReference: {fileID: 0}
     - target: {fileID: 6309530701644494022, guid: cd1efc6802a0fbf4eac42aa335973bd7, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 104
+      value: 234
       objectReference: {fileID: 0}
     - target: {fileID: 6309530701644494022, guid: cd1efc6802a0fbf4eac42aa335973bd7, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 9
+      value: -0.000015259
       objectReference: {fileID: 0}
     - target: {fileID: 7123774940951629905, guid: cd1efc6802a0fbf4eac42aa335973bd7, type: 3}
       propertyPath: m_Alpha
@@ -4219,6 +4223,63 @@ CanvasGroup:
   m_CorrespondingSourceObject: {fileID: 7123774940951629905, guid: cd1efc6802a0fbf4eac42aa335973bd7, type: 3}
   m_PrefabInstance: {fileID: 2000093483}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2132423181
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2018208641603403923, guid: 0bcaa34510b44a04690acba1af5d9098, type: 3}
+      propertyPath: m_Name
+      value: EventSystem
+      objectReference: {fileID: 0}
+    - target: {fileID: 8658958616840956012, guid: 0bcaa34510b44a04690acba1af5d9098, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8658958616840956012, guid: 0bcaa34510b44a04690acba1af5d9098, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8658958616840956012, guid: 0bcaa34510b44a04690acba1af5d9098, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8658958616840956012, guid: 0bcaa34510b44a04690acba1af5d9098, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8658958616840956012, guid: 0bcaa34510b44a04690acba1af5d9098, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8658958616840956012, guid: 0bcaa34510b44a04690acba1af5d9098, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8658958616840956012, guid: 0bcaa34510b44a04690acba1af5d9098, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8658958616840956012, guid: 0bcaa34510b44a04690acba1af5d9098, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8658958616840956012, guid: 0bcaa34510b44a04690acba1af5d9098, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8658958616840956012, guid: 0bcaa34510b44a04690acba1af5d9098, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0bcaa34510b44a04690acba1af5d9098, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -4232,3 +4293,4 @@ SceneRoots:
   - {fileID: 1095690370}
   - {fileID: 804108050}
   - {fileID: 1006801412}
+  - {fileID: 2132423181}

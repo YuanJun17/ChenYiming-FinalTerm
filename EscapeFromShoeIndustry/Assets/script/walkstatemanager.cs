@@ -46,8 +46,10 @@ public class walkstatemanager : MonoBehaviour
     void EnableScript1()
     {
         script1.enabled = true;
+        script2.StopWalk();
         script2.enabled = false;
         script3.enabled = false;
+        
     }
 
     void EnableScript2()
@@ -59,6 +61,7 @@ public class walkstatemanager : MonoBehaviour
     void EnableScript3()
     {
         script1.enabled = false;
+        script2.StopWalk();
         script2.enabled = false;
         script3.enabled = true;
     }

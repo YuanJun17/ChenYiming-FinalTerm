@@ -13,6 +13,8 @@ public class nomalwalk : MonoBehaviour
     public BoxCollider2D myfeet;
     private bool IsGround;
 
+    public GameObject particleEffectPrefab;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -63,6 +65,10 @@ public class nomalwalk : MonoBehaviour
 
                 Vector2 jumpvel = new Vector2(0.0f, jumpspeed);
                 myrigidbody.velocity = Vector2.up * jumpvel;
+                GameObject particleEffectInstance = Instantiate(particleEffectPrefab, transform.position, Quaternion.identity);
+
+                // 延迟1秒后销毁粒子特效
+                Destroy(particleEffectInstance, 1f);
             }
             
         }

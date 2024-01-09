@@ -45,6 +45,9 @@ TagManager:
   - name: map
     uniqueID: 1573161779
     locked: 0
+  - name: ifo
+    uniqueID: 2218520489
+    locked: 0
   - name: player
     uniqueID: 3901025959
     locked: 0
